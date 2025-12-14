@@ -2,11 +2,16 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const db = require('./db');
+const bodyParser = require('body-parser');
+const cors = require('cors');
 
 dotenv.config();
 
 const app = express();
-app.use(express.json());
+app.use(cors());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
