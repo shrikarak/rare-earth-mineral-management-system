@@ -1,0 +1,21 @@
+<h2>Financial Contributions</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Lease Type</th>
+      <th>Lease ID</th>
+      <th>Contribution Date</th>
+      <th>DMF Contribution</th>
+      <th>NMET Contribution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let contribution of contributions">
+      <td>{{ contribution.lease_type }}</td>
+      <td>{{ contribution.lease_id }}</td>
+      <td>{{ contribution.contribution_date | date }}</td>
+      <td>{{ contribution.dmf_contribution | currency:'INR' }}</td>
+      <td>{{ contribution.nmet_contribution | currency:'INR' }}</td>
+    </tr>
+  </tbody>
+</table>

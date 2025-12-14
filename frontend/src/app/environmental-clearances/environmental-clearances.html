@@ -1,0 +1,21 @@
+<h2>Environmental Clearances</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Lease Type</th>
+      <th>Lease ID</th>
+      <th>EIA Report</th>
+      <th>EMP Document</th>
+      <th>EC Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let clearance of clearances">
+      <td>{{ clearance.lease_type }}</td>
+      <td>{{ clearance.lease_id }}</td>
+      <td>{{ clearance.eia_report }}</td>
+      <td>{{ clearance.emp_document }}</td>
+      <td>{{ clearance.ec_status }}</td>
+    </tr>
+  </tbody>
+</table>

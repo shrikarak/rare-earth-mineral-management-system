@@ -1,0 +1,23 @@
+<h2>Atomic Minerals Compliance</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Lease Type</th>
+      <th>Lease ID</th>
+      <th>Thorium Level</th>
+      <th>AERB Compliance Docs</th>
+      <th>DAE Compliance Docs</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let compliance of compliances">
+      <td>{{ compliance.lease_type }}</td>
+      <td>{{ compliance.lease_id }}</td>
+      <td>{{ compliance.thorium_level }}</td>
+      <td>{{ compliance.aerb_compliance_docs }}</td>
+      <td>{{ compliance.dae_compliance_docs }}</td>
+      <td>{{ compliance.status }}</td>
+    </tr>
+  </tbody>
+</table>

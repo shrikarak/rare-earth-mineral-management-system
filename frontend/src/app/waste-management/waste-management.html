@@ -1,0 +1,23 @@
+<h2>Waste Management</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Lease Type</th>
+      <th>Lease ID</th>
+      <th>Waste Type</th>
+      <th>Disposal Method</th>
+      <th>Storage Details</th>
+      <th>Recycling Initiatives</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of waste">
+      <td>{{ item.lease_type }}</td>
+      <td>{{ item.lease_id }}</td>
+      <td>{{ item.waste_type }}</td>
+      <td>{{ item.disposal_method }}</td>
+      <td>{{ item.storage_details }}</td>
+      <td>{{ item.recycling_initiatives }}</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,21 @@
+<h2>Safety Incidents</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Lease Type</th>
+      <th>Lease ID</th>
+      <th>Incident Date</th>
+      <th>Incident Details</th>
+      <th>Corrective Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let incident of incidents">
+      <td>{{ incident.lease_type }}</td>
+      <td>{{ incident.lease_id }}</td>
+      <td>{{ incident.incident_date | date }}</td>
+      <td>{{ incident.incident_details }}</td>
+      <td>{{ incident.corrective_actions }}</td>
+    </tr>
+  </tbody>
+</table>

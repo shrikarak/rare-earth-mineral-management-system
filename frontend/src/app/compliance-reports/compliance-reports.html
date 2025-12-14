@@ -1,0 +1,27 @@
+<h2>Compliance Reports</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Lease Type</th>
+      <th>Lease ID</th>
+      <th>Report Date</th>
+      <th>Production Details</th>
+      <th>Trade Details</th>
+      <th>Utilization Details</th>
+      <th>Submitted to IBM</th>
+      <th>Submitted to State Gov</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let report of reports">
+      <td>{{ report.lease_type }}</td>
+      <td>{{ report.lease_id }}</td>
+      <td>{{ report.report_date | date }}</td>
+      <td>{{ report.production_details }}</td>
+      <td>{{ report.trade_details }}</td>
+      <td>{{ report.utilization_details }}</td>
+      <td>{{ report.submitted_to_ibm }}</td>
+      <td>{{ report.submitted_to_state_gov }}</td>
+    </tr>
+  </tbody>
+</table>

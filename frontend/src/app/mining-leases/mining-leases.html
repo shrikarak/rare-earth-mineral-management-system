@@ -1,0 +1,23 @@
+<h2>Mining Leases</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Lease Holder Name</th>
+      <th>Lease Area</th>
+      <th>Grant Date</th>
+      <th>Renewal Date</th>
+      <th>Auction Date</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let lease of leases">
+      <td>{{ lease.lease_holder_name }}</td>
+      <td>{{ lease.lease_area }}</td>
+      <td>{{ lease.grant_date | date }}</td>
+      <td>{{ lease.renewal_date | date }}</td>
+      <td>{{ lease.auction_date | date }}</td>
+      <td>{{ lease.status }}</td>
+    </tr>
+  </tbody>
+</table>

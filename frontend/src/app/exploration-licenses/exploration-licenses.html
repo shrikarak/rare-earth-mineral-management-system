@@ -1,0 +1,23 @@
+<h2>Exploration Licenses</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Applicant Name</th>
+      <th>License Area</th>
+      <th>Reconnaissance Data</th>
+      <th>Prospecting Data</th>
+      <th>Auction Date</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let license of licenses">
+      <td>{{ license.applicant_name }}</td>
+      <td>{{ license.license_area }}</td>
+      <td>{{ license.reconnaissance_data }}</td>
+      <td>{{ license.prospecting_data }}</td>
+      <td>{{ license.auction_date | date }}</td>
+      <td>{{ license.status }}</td>
+    </tr>
+  </tbody>
+</table>
