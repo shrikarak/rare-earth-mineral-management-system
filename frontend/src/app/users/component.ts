@@ -3,8 +3,8 @@ import { ApiService } from '../api';
 
 @Component({
   selector: 'app-users',
-  templateUrl: './users.html',
-  styleUrls: ['./users.less']
+  templateUrl: './component.html',
+  styleUrls: ['./component.less']
 })
 export class UsersComponent implements OnInit {
   users: any[] = [];

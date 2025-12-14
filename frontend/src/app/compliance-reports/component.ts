@@ -3,8 +3,8 @@ import { ApiService } from '../api';
 
 @Component({
   selector: 'app-compliance-reports',
-  templateUrl: './compliance-reports.html',
-  styleUrls: ['./compliance-reports.less']
+  templateUrl: './component.html',
+  styleUrls: ['./component.less']
 })
 export class ComplianceReportsComponent implements OnInit {
   reports: any[] = [];

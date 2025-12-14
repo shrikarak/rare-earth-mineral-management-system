@@ -1,13 +1,13 @@
 import { Routes } from '@angular/router';
-import { ExplorationLicensesComponent } from './exploration-licenses/exploration-licenses';
-import { MiningLeasesComponent } from './mining-leases/mining-leases';
-import { ComplianceReportsComponent } from './compliance-reports/compliance-reports';
-import { AtomicMineralsComplianceComponent } from './atomic-minerals-compliance/atomic-minerals-compliance';
-import { FinancialContributionsComponent } from './financial-contributions/financial-contributions';
-import { EnvironmentalClearancesComponent } from './environmental-clearances/environmental-clearances';
-import { SafetyIncidentsComponent } from './safety-incidents/safety-incidents';
-import { WasteManagementComponent } from './waste-management/waste-management';
-import { UsersComponent } from './users/users';
+import { ExplorationLicensesComponent } from './exploration-licenses/component';
+import { MiningLeasesComponent } from './mining-leases/component';
+import { ComplianceReportsComponent } from './compliance-reports/component';
+import { AtomicMineralsComplianceComponent } from './atomic-minerals-compliance/component';
+import { FinancialContributionsComponent } from './financial-contributions/component';
+import { EnvironmentalClearancesComponent } from './environmental-clearances/component';
+import { SafetyIncidentsComponent } from './safety-incidents/component';
+import { WasteManagementComponent } from './waste-management/component';
+import { UsersComponent } from './users/component';
 
 export const routes: Routes = [
     { path: 'exploration-licenses', component: ExplorationLicensesComponent },

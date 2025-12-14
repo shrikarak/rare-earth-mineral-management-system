@@ -3,8 +3,8 @@ import { ApiService } from '../api';
 
 @Component({
   selector: 'app-environmental-clearances',
-  templateUrl: './environmental-clearances.html',
-  styleUrls: ['./environmental-clearances.less']
+  templateUrl: './component.html',
+  styleUrls: ['./component.less']
 })
 export class EnvironmentalClearancesComponent implements OnInit {
   clearances: any[] = [];

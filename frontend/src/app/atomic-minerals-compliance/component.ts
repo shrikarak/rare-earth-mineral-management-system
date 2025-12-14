@@ -3,8 +3,8 @@ import { ApiService } from '../api';
 
 @Component({
   selector: 'app-atomic-minerals-compliance',
-  templateUrl: './atomic-minerals-compliance.html',
-  styleUrls: ['./atomic-minerals-compliance.less']
+  templateUrl: './component.html',
+  styleUrls: ['./component.less']
 })
 export class AtomicMineralsComplianceComponent implements OnInit {
   compliances: any[] = [];

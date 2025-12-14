@@ -3,8 +3,8 @@ import { ApiService } from '../api';
 
 @Component({
   selector: 'app-financial-contributions',
-  templateUrl: './financial-contributions.html',
-  styleUrls: ['./financial-contributions.less']
+  templateUrl: './component.html',
+  styleUrls: ['./component.less']
 })
 export class FinancialContributionsComponent implements OnInit {
   contributions: any[] = [];

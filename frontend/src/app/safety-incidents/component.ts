@@ -3,8 +3,8 @@ import { ApiService } from '../api';
 
 @Component({
   selector: 'app-safety-incidents',
-  templateUrl: './safety-incidents.html',
-  styleUrls: ['./safety-incidents.less']
+  templateUrl: './component.html',
+  styleUrls: ['./component.less']
 })
 export class SafetyIncidentsComponent implements OnInit {
   incidents: any[] = [];

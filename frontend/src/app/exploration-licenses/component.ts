@@ -3,8 +3,8 @@ import { ApiService } from '../api';
 
 @Component({
   selector: 'app-exploration-licenses',
-  templateUrl: './exploration-licenses.html',
-  styleUrls: ['./exploration-licenses.less']
+  templateUrl: './component.html',
+  styleUrls: ['./component.less']
 })
 export class ExplorationLicensesComponent implements OnInit {
   licenses: any[] = [];

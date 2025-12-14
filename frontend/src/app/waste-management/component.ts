@@ -3,8 +3,8 @@ import { ApiService } from '../api';
 
 @Component({
   selector: 'app-waste-management',
-  templateUrl: './waste-management.html',
-  styleUrls: ['./waste-management.less']
+  templateUrl: './component.html',
+  styleUrls: ['./component.less']
 })
 export class WasteManagementComponent implements OnInit {
   waste: any[] = [];

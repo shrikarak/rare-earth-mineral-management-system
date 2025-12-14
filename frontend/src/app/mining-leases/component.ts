@@ -3,8 +3,8 @@ import { ApiService } from '../api';
 
 @Component({
   selector: 'app-mining-leases',
-  templateUrl: './mining-leases.html',
-  styleUrls: ['./mining-leases.less']
+  templateUrl: './component.html',
+  styleUrls: ['./component.less']
 })
 export class MiningLeasesComponent implements OnInit {
   leases: any[] = [];
