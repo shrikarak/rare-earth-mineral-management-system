@@ -1,11 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../api';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-waste-management',
-  standalone: true,
-  imports: [CommonModule],
   templateUrl: './waste-management.html',
   styleUrls: ['./waste-management.less']
 })

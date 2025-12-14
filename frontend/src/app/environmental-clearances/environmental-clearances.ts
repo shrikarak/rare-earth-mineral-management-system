@@ -1,11 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../api';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-environmental-clearances',
-  standalone: true,
-  imports: [CommonModule],
   templateUrl: './environmental-clearances.html',
   styleUrls: ['./environmental-clearances.less']
 })

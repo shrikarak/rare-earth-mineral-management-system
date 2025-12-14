@@ -1,11 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../api';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-safety-incidents',
-  standalone: true,
-  imports: [CommonModule],
   templateUrl: './safety-incidents.html',
   styleUrls: ['./safety-incidents.less']
 })
