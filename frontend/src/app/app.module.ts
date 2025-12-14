@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
-import { AppComponent } from './app.component';
+import { AppComponent } from './app/app.component';
 import { ExplorationLicensesComponent } from './exploration-licenses/component';
 import { MiningLeasesComponent } from './mining-leases/component';
 import { ComplianceReportsComponent } from './compliance-reports/component';
